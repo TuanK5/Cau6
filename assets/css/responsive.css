@@ -1,0 +1,194 @@
+
+
+@media only screen and (max-width: 768px) {
+
+    /* Responsive Hone */
+    
+    
+    :root{
+        --text-color: aliceblue;
+        --pink-color: #f481c2;
+        --red-color: red;
+        --black-color: black;
+        /* var(--text-color); */
+    }
+    
+   
+
+    .header{
+        border-bottom: 1px var(--pink-color) solid;
+    }
+    
+    #home{
+        width: 100%;
+        color: var(--text-color);
+        }
+
+    .logo_menu{
+        width: 100%;
+    }
+
+    .logo img{
+        margin-left: 2px;
+    }
+    
+    /* .listmenu{
+        display: flex;
+        flex-direction: column;
+    } */
+
+    .listmenu_item{
+        padding: 0 2px;
+        font-size: 17px;
+    }
+
+    .listmenu_item:hover{
+        background-color:initial;
+        border-radius: initial;
+        line-height: initial;
+        animation: initial;
+    }
+
+    .listmenu_item:last-child{
+        margin-right: 5px;
+    }
+
+    .container{
+        padding-bottom: 80px;
+        }
+
+    .slogan{
+        padding-top: 20px   ;
+    }
+
+    .slogan_content{
+        width: 90%;
+        padding: 20px 10px;
+    }
+
+    .slogan_slg{
+        line-height: 25px;
+        text-align: center;
+        color: var(--pink-color); 
+        font-size: 23px;
+    }
+
+    .slogan_love{
+        text-align: center !important;
+    }
+
+    .imgProfile{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgMale, .imgFemale{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .labelCountDateLove{
+        font-size: 30px;
+        font-weight: 300;
+        letter-spacing: 5px;
+        padding-top: 8%;
+        padding-bottom: 12px;
+    }
+
+    .mthu{
+        margin-top: 50px;
+        font-size: 25;
+    }
+
+    .ti-facebook{
+        width: 20px;
+        height: 20px;
+        left: 40%;
+        font-size: 15px;
+        display: none;
+    }
+
+    /* Responsive Timeline */
+
+    .timeline_form {
+        width: 90% !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .timeline_img{
+        width: 150px !important;
+        height: 150px !important;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        padding-right: 0 !important;
+    }
+
+    .timeline_content{
+        width: 100% !important;
+        padding: 10px;
+    }
+
+
+    /* Responsive Lovestory */
+
+    .storyEven, .storyOdd{
+        width: 90% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .storyOdd{
+        flex-direction: column-reverse;
+    }
+
+    .storyOdd_content{
+        margin-right: 0 !important;
+    }
+
+    .storyEven_image img,.storyOdd_image img{
+        width: 150px !important;
+        height: 150px !important;
+        border-radius: 5px;
+    }
+
+
+    /* Responsive Album */
+
+    .album{
+        width: 90% !important;
+        flex-direction: column;
+    }
+
+    .listAlbum{
+        width: 90% !important;
+        border-right: none !important;
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 3px solid var(--black-color);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .listAlbum_name_item:nth-child(2), .listAlbum_name_item:nth-child(3){
+        border-bottom: none !important;
+    }
+
+    .listImages, .listVideos{
+        width: 100% !important;
+    }
+
+    /* .listImages img{
+        width: 65px !important;
+        height: 60px !important;
+    } */
+
+    .images-videos{
+        padding: 10px 23px !important;
+    }
+
+  }
+
+

@@ -1,0 +1,59 @@
+/* reset css */
+:root{
+    --text-color: aliceblue;
+    --pink-color: #f481c2;
+    --red-color: red;
+    --black-color: black;
+    /* var(--text-color); */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* CSS HOME */
+
+html{
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* CSS BODY */
+
+.container{
+    margin-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.timeline_form{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: rgba(239, 230, 236, 0.2);
+    border-radius: 10px;
+    color: var(--text-color);
+    display: flex;
+    justify-content: space-between;
+    }
+
+.timeline_img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+    border: 2px solid var(--pink-color);
+}
+
+.timeline_content{
+    width: 80%;
+    height: auto;
+    padding-left: 10px;
+    text-align: justify;
+    padding-top: 30px;
+}
+
